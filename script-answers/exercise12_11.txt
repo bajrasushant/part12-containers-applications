@@ -1,0 +1,108 @@
+Script started on 2024-07-01 15:00:34+05:45 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="112" LINES="26"]
+]0;bajra_sushant@archlinux:~/fso/part12/script-answers[?2004h[bajra_sushant@archlinux script-answers]$ ls
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m          [4mDate Modified[0m [4mName[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m     [32m0[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  .gitkeep
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m169[0m [1;33mbajra_sushant[0m [34m28 Jun 10:55[0m  exercise12_1.txt
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [1;32m14k[0m [1;33mbajra_sushant[0m [34m28 Jun 10:57[0m  exercise12_2.txt
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [1;32m11k[0m [1;33mbajra_sushant[0m [34m28 Jun 11:12[0m  exercise12_3.txt
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [1;32m59k[0m [1;33mbajra_sushant[0m [34m28 Jun 11:18[0m  exercise12_4.txt
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [1;32m12k[0m [1;33mbajra_sushant[0m [34m 1 Jul 14:07[0m  exercise12_8.txt
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m     [32m0[0m [1;33mbajra_sushant[0m [34m 1 Jul 15:00[0m  exercise12_11.txt
+]0;bajra_sushant@archlinux:~/fso/part12/script-answers[?2004h[bajra_sushant@archlinux script-answers]$ cd ..
+[?2004l]0;bajra_sushant@archlinux:~/fso/part12[?2004h[bajra_sushant@archlinux part12]$ ls
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m          [4mDate Modified[0m [4mName[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 14:59[0m  [1;34m.git[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 14:59[0m  [1;34mpractice[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 15:00[0m  [1;34mscript-answers[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mtodo-app[0m
+]0;bajra_sushant@archlinux:~/fso/part12[?2004h[bajra_sushant@archlinux part12]$ cd todo-app/
+[?2004l]0;bajra_sushant@archlinux:~/fso/part12/todo-app[?2004h[bajra_sushant@archlinux todo-app]$ ls
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m          [4mDate Modified[0m [4mName[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mold-todo-frontend[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 14:59[0m  [1;34mtodo-backend[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mtodo-frontend[0m
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app[?2004h[bajra_sushant@archlinux todo-app]$ cd todo--[Kbackend/
+[?2004l]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ ls
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m          [4mDate Modified[0m [4mName[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mbin[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mmongo[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:07[0m  [1;34mnode_modules[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mredis[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 13:58[0m  [1;34mroutes[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mutil[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m    [32m49[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:10[0m  .dockerignore
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m926[0m [1;33mbajra_sushant[0m [34m 1 Jul 11:56[0m  .gitignore
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m370[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;33mapp.js[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m399[0m [1;33mbajra_sushant[0m [34m 1 Jul 13:16[0m  docker-compose.dev.yml
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m168[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:46[0m  docker-compose.yml
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m103[0m [1;33mbajra_sushant[0m [34m 1 Jul 11:45[0m  [1;4;33mDockerfile[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m     [32m0[0m [1;33mbajra_sushant[0m [34m 1 Jul 13:12[0m  [1;33meslint.config.js[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [1;32m76k[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:07[0m  package-lock.json
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m382[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;4;33mpackage.json[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m438[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;4;33mREADME.md[0m
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ docker exec -it todo-backend_[K-redis-1 redis-cli
+[?2004l127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET A[0;90;49m key[0m[21C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6379> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6379> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6379> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6379> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6379> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6379> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6379> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6379> GET added_tot[0;90;49m key[0m[29C[0K127.0.0.1:6379> GET added_toto[0;90;49m key[0m[30C[0K127.0.0.1:6379> GET added_tot[0;90;49m key[0m[29C[0K127.0.0.1:6379> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6379> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6379> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"14"
+127.0.0.1:6379> [0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> se[18C[0K127.0.0.1:6379> set[19C[0K127.0.0.1:6379> se[18C[0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> SE[18C[0K127.0.0.1:6379> SET[19C[0K127.0.0.1:6379> SET [0;90;49mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-mi[0m[20C[0K127.0.0.1:6379> SET a[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-[0m[21C[0K127.0.0.1:6379> SET ad[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time[0m[22C[0K127.0.0.1:6379> SET add[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-tim[0m[23C[0K127.0.0.1:6379> SET adde[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m[24C[0K127.0.0.1:6379> SET added[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-t[0m[25C[0K127.0.0.1:6379> SET added_[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-[0m[26C[0K127.0.0.1:6379> SET added_t[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix[0m[27C[0K127.0.0.1:6379> SET added_to[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT uni[0m[28C[0K127.0.0.1:6379> SET added_tod[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT un[0m[29C[0K127.0.0.1:6379> SET added_todo[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT u[0m[30C[0K127.0.0.1:6379> SET added_todos[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT [0m[31C[0K127.0.0.1:6379> SET added_todos [0;90;49mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix[0m[32C[0K127.0.0.1:6379> SET added_todos 9[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT un[0m[33C[0K127.0.0.1:6379> SET added_todos 90[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT u[0m[34C[0K127.0.0.1:6379> SET added_todos 901[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT [0m[35C[0K127.0.0.1:6379> SET added_todos 90[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT u[0m[34C[0K127.0.0.1:6379> SET added_todos 900[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT [0m[35C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT[0m[36C[0K127.0.0.1:6379> SET added_todos 9001[36C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT[0m[36C[0K127.0.0.1:6379> SET added_todos 9001[36C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> 1[17C[0K127.0.0.1:6379> 1 [18C[0K127.0.0.1:6379> 1[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6379> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6379> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6379> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6379> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6379> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6379> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6379> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6379> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6379> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> d[17C[0K127.0.0.1:6379> de[18C[0K127.0.0.1:6379> d[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> D[17C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEl[19C[0K127.0.0.1:6379> DEl [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEl[19C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEL[19C[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEL a[0;90;49m key [key ...][0m[21C[0K127.0.0.1:6379> DEL ad[0;90;49m key [key ...][0m[22C[0K127.0.0.1:6379> DEL add[0;90;49m key [key ...][0m[23C[0K127.0.0.1:6379> DEL adde[0;90;49m key [key ...][0m[24C[0K127.0.0.1:6379> DEL added[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6379> DEL added_[0;90;49m key [key ...][0m[26C[0K127.0.0.1:6379> DEL added_t[0;90;49m key [key ...][0m[27C[0K127.0.0.1:6379> DEL added_to[0;90;49m key [key ...][0m[28C[0K127.0.0.1:6379> DEL added_tod[0;90;49m key [key ...][0m[29C[0K127.0.0.1:6379> DEL added_todo[0;90;49m key [key ...][0m[30C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KY[18C[0K127.0.0.1:6379> KYE[19C[0K127.0.0.1:6379> KYES[20C[0K127.0.0.1:6379> KYE[19C[0K127.0.0.1:6379> KY[18C[0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"NaN"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> Ge[18C[0K127.0.0.1:6379> Get[19C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"NaN"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> SET added_todos 9001[36C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"NaN"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"0"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> SET added_todos 9001[36C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET[0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+(nil)
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"2"
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ exit
+[?2004lexit
+
+Script done on 2024-07-01 15:15:32+05:45 [COMMAND_EXIT_CODE="0"]

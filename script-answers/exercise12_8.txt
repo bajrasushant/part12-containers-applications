@@ -1,0 +1,117 @@
+Script started on 2024-07-01 12:52:36+05:45 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="112" LINES="26"]
+]0;bajra_sushant@archlinux:~/fso/part12[?2004h[bajra_sushant@archlinux part12]$ cd todo-app/todo-backend/
+[?2004l]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ ls
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m          [4mDate Modified[0m [4mName[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mbin[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mmongo[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:07[0m  [1;34mnode_modules[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mredis[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m 1 Jul 12:26[0m  [1;34mroutes[0m
+[1;34md[33mr[31mw[32mx[0m[33mr[1;90m-[0m[32mx[33mr[1;90m-[0m[32mx[0m     [1;90m-[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;34mutil[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m    [32m49[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:10[0m  .dockerignore
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m926[0m [1;33mbajra_sushant[0m [34m 1 Jul 11:56[0m  .gitignore
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m370[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;33mapp.js[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m343[0m [1;33mbajra_sushant[0m [34m 1 Jul 11:57[0m  docker-compose.dev.yml
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m168[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:46[0m  docker-compose.yml
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m103[0m [1;33mbajra_sushant[0m [34m 1 Jul 11:45[0m  [1;4;33mDockerfile[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [1;32m76k[0m [1;33mbajra_sushant[0m [34m 1 Jul 10:07[0m  package-lock.json
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m382[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;4;33mpackage.json[0m
+.[1;33mr[31mw[90m-[0m[33mr[1;90m--[0m[33mr[1;90m--[0m   [32m438[0m [1;33mbajra_sushant[0m [34m28 Jun 10:18[0m  [1;4;33mREADME.md[0m
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ docker compose up --build --remove-orphans[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[C[C[C[Kmit brave_beaver hello-node-worldpose up[K[C[C[C[C[C[C[C --build[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --remove-orphan[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[C^C[?2004l[?2004h[?2004l
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ dc[Kocker compose up --build --remove-orphans[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[C[C[C[C[C[C[K[3Pkill 0dps[Kkill 6cps[Kkill 8aps[Kkill 2f2g[Kps[1Pskill dreamy_borgps[Kkill dramy_borg[C[C[C[C[C53[Kps[Kkill 03ps[Kkill beps[K[C[C -arun -p 3123:3000 express-server[6Pbuild -t express-server .run -p 3123:3000 express-serverps -a[K[C[C[Kkill beps[Kkill 03ps[Kkill 53[C[C[C[C[Cdramy_borgps[Kkill dreamy_borgs[Kps2gkill 2fps[Kkill 8aps[Kkill 6cps[Kkill 0dcompose up[C[C[C[C[C[C[C[C[C[C --build[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --remove-orphan[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs^C[?2004l[?2004h[?2004l
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ docker compose up [K[K[K-f 
+app.js                  Dockerfile              node_modules/           redis/
+bin/                    .dockerignore           package.json            routes/
+docker-compose.dev.yml  .gitignore              package-lock.json       util/
+docker-compose.yml      mongo/                  README.md               
+[bajra_sushant@archlinux todo-backend]$ docker compose -f docker-compose.dev.yml -f[Kd[K[Kup -d
+[?2004l[33mWARN[0m[0000] Found orphan containers ([todo-backend-app-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up. 
+[1A[1B[0G[?25l[+] Running 0/0
+ [33m⠋[0m Container todo-backend-mongo-1  Starting                                                                [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-mongo-1  Starting                                                                [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-mongo-1  Starting                                                                [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container todo-backend-mongo-1  [32mStarted[0m                                                                 [34m0.4s [0m
+[?25h]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ docker e[K[K ps
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS         PORTS                                         NAMES
+94dc17e182e4   mongo     "docker-entrypoint.s…"   55 minutes ago   Up 7 seconds   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ docker co[K[Kexec -it to-[Kdo-backend_[K-mongo-1 mons[Kgosh -u root -p example
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6682560e4c1cede6f7149f47
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.10[0m
+Using MongoDB:		7.0.12
+[1m[33mUsing Mongosh[0m:		2.2.10
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2024-07-01T07:08:27.150+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-07-01T07:08:28.130+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never' in this binary version
+   2024-07-01T07:08:28.130+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m        108.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   56.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gto[1G[0Jthe_database> t[16G[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.fo[1G[0Jthe_database> db.f[19G[1G[0Jthe_database> db.[18Gtodos.find({}([1G[0Jthe_database> db.todos.find({}[31G)
+[
+  {
+    _id: ObjectId([32m'668248f884cd30549c149f48'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'668248f884cd30549c149f49'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.co[1G[0Jthe_database> db.c[19G[1G[0Jthe_database> db.[18Gtodos.insertONe[1G[0Jthe_database> db.todos.insertON[32G[1G[0Jthe_database> db.todos.insertO[31Gne({text[33mtext[39m: [32m'[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32ms[39m[32me[39m [1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increasse[39m[51G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increass[39m[50G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increas[39m[49G[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m [32mb[39m[32me[39m[32ml[39m[32mt[39m[32m'[39m, d[36mdo[39mdone: fals[33mfalse[39m})
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'668256a04c1cede6f7149f48'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my tool belt'[39m, [33mdone[39m: [33mfalse[39m})[102G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'668248f884cd30549c149f48'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'668248f884cd30549c149f49'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'668256a04c1cede6f7149f48'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ e[Ke[KMO[K[KMONO[KGODB_URL=mondo[K[Kgodb://[1P_URL=mongodb://[1P_URL=mongodb://[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthe_ur[Ksernae[Kme: [Kthe_password@ho[K[Klocalhost:3456/the_databas e npm run dev
+[?2004l
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m3.936 ms - -[0m
+[0mGET /todos [32m200 [0m20.382 ms - 250[0m
+[0mGET /todos/668256a04c1cede6f7149f48 [32m200 [0m7.802 ms - 101[0m
+^C]0;bajra_sushant@archlinux:~/fso/part12/todo-app/todo-backend[?2004h[bajra_sushant@archlinux todo-backend]$ exit
+[?2004lexit
+
+Script done on 2024-07-01 12:57:58+05:45 [COMMAND_EXIT_CODE="130"]

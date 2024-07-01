@@ -1,0 +1,6 @@
+services:
+  app:
+    image: todo-backend # image to use
+    build: . # build where image not found
+    ports: # ports to use 3000 host 3000 container
+      - 3000:3000
