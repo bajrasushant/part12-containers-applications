@@ -1,0 +1,15 @@
+services:
+  app:
+    image: hello-front-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+
+    volumes:
+      - ./:/usr/src/app # paths are relative that is why ./
+
+    ports:
+      - 5173:5173
+    container_name: hello-front-dev
+  # debug-helper:
+  #   image: busybox
