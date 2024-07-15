@@ -1,0 +1,23 @@
+services:
+  bloglist-backend:
+    image: bloglist-backend-prod
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+
+  bloglist-frontend:
+    image: bloglist-frontend-prod
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    environment:
+      - VITE_API_URL=http:/localhost:8080/
+
+  nginx:
+    image: nginx:1.27.0
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+     - 8080:80
+    depends_on:
+      - bloglist-frontend

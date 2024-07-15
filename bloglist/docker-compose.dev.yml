@@ -1,0 +1,32 @@
+services:
+  bloglist-backend-dev:
+    image: bloglist-backend-dev
+    build:
+      context: ./backend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./backend:/usr/src/app
+
+  bloglist-frontend-dev:
+    image: bloglist-frontend-dev
+    build:
+      context: ./frontend
+      dockerfile: dev.Dockerfile
+    environment:
+      - VITE_API_URL=http://localhost:8080/
+    volumes:
+      - ./frontend:/usr/src/app
+    # ports:
+    #   - 5173:5173
+
+  nginx:
+    image: nginx:1.27.0
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    depends_on:
+      - bloglist-frontend-dev
+
+  debug-helper:
+    image: busybox

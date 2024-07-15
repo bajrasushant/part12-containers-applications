@@ -1,0 +1,133 @@
+name: Deployment pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    branches: [master]
+    types: [opened, synchronize]
+
+jobs:
+  backend_check:
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check style
+        run: npm run lint
+
+      - name: Test
+        run: npm run test
+        env:
+          PORT: ${{secrets.PORT}}
+          MONGODB_URI: ${{secrets.MONGODB_URI}}
+          TEST_MONGODB_URI: ${{secrets.TEST_MONGODB_URI}}
+          SECRET: ${{ secrets.SECRET}}
+
+      - name: Discord notify on faliure
+        if: failure()
+        uses: rjstone/discord-webhook-notify@v1
+        with:
+          severity: error
+          text: Build failed
+          description: "commit \n https://github.com/${{github.repository}}/commit/${{ github.sha }} by ${{github.actor}} broke the build :("
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+
+  frontend_check:
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check style
+        run: npm run lint
+
+      - name: Component Test
+        run: npm run test
+
+      - name: Discord notify on faliure
+        if: failure()
+        uses: rjstone/discord-webhook-notify@v1
+        with:
+          severity: error
+          text: Build failed
+          description: "commit \n https://github.com/${{github.repository}}/commit/${{ github.sha }} by ${{github.actor}} broke the build :("
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+
+  full_check:
+    needs: [backend_check, frontend_check]
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build
+        working-directory: backend
+        run: ./build_script.sh
+
+      - name: e2e test
+        uses: cypress-io/github-action@v6
+        with:
+          command: npm run test:e2e
+          start: npm run start:testCypress
+          wait-on: http://localhost:3001
+          working-directory: frontend
+        env:
+          MONGODB_URI: ${{secrets.MONGODB_URI}}
+          TEST_MONGODB_URI: ${{secrets.TEST_MONGODB_URI}}
+          PORT: ${{secrets.PORT}}
+          SECRET: ${{ secrets.SECRET}}
+
+      - name: Discord notify on faliure
+        if: failure()
+        uses: rjstone/discord-webhook-notify@v1
+        with:
+          severity: error
+          text: Build failed
+          description: "commit \n https://github.com/${{github.repository}}/commit/${{ github.sha }} by ${{github.actor}} broke the build :("
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+
+      - name: Trigger deployment
+        if: ${{github.event_name == 'push' && !contains(join(github.event.commits.*.message), '#skip') }}
+        run: curl https://api.render.com/deploy/srv-${{secrets.RENDER_SERVICE_ID}}?key=${{secrets.RENDER_API_KEY}}
+
+      - name: Deploy success notify discord
+        if: ${{ github.event_name == 'push' && success() && !contains(join(github.event.commits.*.message), '#skip') }}
+        uses: rjstone/discord-webhook-notify@v1
+        with:
+          severity: info
+          text: A new version is deployed
+          description: "to https://bloglist-xiv8.onrender.com/ by ${{ github.actor}}"
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+
+  tag_release:
+    if: ${{ github.event_name == 'push' && success() && !contains(join(github.event.commits.*.message), '#skip') }}
+    needs: [full_check]
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bump patch and push tag
+        uses: anothrNick/github-tag-action@afe4b67b57b8ab0908e4767109a5342003639e2e
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+          DEFAULT_BUMP: patch

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      .input-container {
+        display: inline-flex;
+        /* Use inline-flex to shrink to content size */
+        align-items: center;
+        /* Center align items */
+        white-space: nowrap;
+        /* Prevent wrapping */
+      }
+
+      .input-like {
+        display: inline-block;
+        padding: 5px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 16px;
+        margin-left: 10px;
+        white-space: nowrap;
+        /* Prevent wrapping */
+        box-sizing: border-box;
+        /* Include padding and border in width calculation */
+      }
+
+      .input-like[contenteditable="true"]:empty:before {
+        content: attr(placeholder);
+        color: #888;
+        /* Placeholder text color */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="input-container">
+      <label for="myInput">Label:</label>
+      <div class="input-like" contenteditable="true" aria-disabled="true">
+        Sample Text
+      </div>
+    </div>
+  </body>
+</html>
